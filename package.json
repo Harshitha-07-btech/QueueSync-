@@ -1,0 +1,18 @@
+{
+  "name": "codecom",
+  "version": "1.0.0",
+  "description": "QueueSync — AI-powered live virtual queue for public service centers",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "express": "^5.2.1",
+    "ws": "^8.21.0"
+  }
+}
